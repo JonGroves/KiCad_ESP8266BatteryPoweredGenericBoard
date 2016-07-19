@@ -79,7 +79,7 @@ LIBS:Zilog
 LIBS:ESP8266
 LIBS:lm1117
 LIBS:lm1117-SMD
-LIBS:2016.07.18_BatteryPoweredGeneric-cache
+LIBS:2016.07.18_BatteryPoweredGenericV2-cache
 EELAYER 25 0
 EELAYER END
 $Descr A 11000 8500
@@ -520,7 +520,7 @@ MOSI
 Text Label 8950 2500 0    60   ~ 0
 SCLK
 Text Label 8950 2400 0    60   ~ 0
-GPIO14
+GPIO16
 Text Label 8950 3200 0    60   ~ 0
 GPIO13
 $Comp
@@ -575,7 +575,7 @@ MISO
 Text Label 9050 4950 0    60   ~ 0
 SCLK
 Text Label 8950 2100 0    60   ~ 0
-GPIO16
+GPIO14
 Text Label 9050 4650 0    60   ~ 0
 GPIO10
 Text Label 4300 6600 0    60   ~ 0
@@ -934,7 +934,7 @@ Wire Wire Line
 	2500 5900 2500 6200
 Connection ~ 2550 6200
 Text Label 2550 6200 3    60   ~ 0
-GPIO14
+GPIO16
 Wire Wire Line
 	2550 6200 2550 6450
 Connection ~ 700  6200
